@@ -1,21 +1,25 @@
-# Contributing to [Project Name](#contributing-to-project-name)
+# Contributing to [High-Level Design Docs](https://github.com/gvatsal60/high-level-design-docs/tree/HEAD)
 
-Thank you for your interest in contributing to [Project Name](https)!
+Thank you for your interest in contributing to [High-Level Design Docs](https://github.com/gvatsal60/high-level-design-docs/tree/HEAD)!
 Please follow these guidelines to ensure a smooth process.
 
 ## How to Contribute
 
-1. Fork the repository and create your branch from `master`.
-2. Open an issue or feature request on GitHub or pick an existing one.
-3. Work on your changes.
-4. Ensure your code follows our coding standards and conventions.
-5. Test your changes thoroughly.
-6. Submit a pull request referencing the original issue.
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Update or add a new design document in the appropriate folder.
+4. Ensure your documentation follows the repository's formatting conventions.
+5. Submit a pull request with a clear description of the changes.
 
-## Code Style
+## Formatting Guidelines
 
-[Describe your coding style guidelines here, if applicable.](#code-style)
-We follow the [coding style guide](link_to_style_guide) for this project.
+- Use Markdown (`.md`) for all documentation.
+- Ensure your documents are clearly written and concise.
+- Include diagrams where appropriate (
+  e.g., using [Mermaid](https://mermaid-js.github.io/mermaid/#/),
+  [PlantUML](http://plantuml.com/), or
+  [draw.io](https://app.diagrams.net/)).
+- Keep the focus on high-level design, and avoid diving too deep into implementation details.
 
 ## Reporting Bugs
 
