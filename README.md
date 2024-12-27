@@ -1,49 +1,70 @@
-# Project Template
+# High-Level Design Docs
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://img.shields.io/github/license/gvatsal60/project-template)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gvatsal60/project-template/master.svg)](https://results.pre-commit.ci/latest/github/gvatsal60/project-template/HEAD)
-[![CodeFactor](https://www.codefactor.io/repository/github/gvatsal60/project-template/badge)](https://www.codefactor.io/repository/github/gvatsal60/project-template)
-![GitHub pull-requests](https://img.shields.io/github/issues-pr/gvatsal60/project-template)
-![GitHub Issues](https://img.shields.io/github/issues/gvatsal60/project-template)
-![GitHub forks](https://img.shields.io/github/forks/gvatsal60/project-template)
-![GitHub stars](https://img.shields.io/github/stars/gvatsal60/project-template)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://img.shields.io/github/license/gvatsal60/high-level-design-docs)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gvatsal60/high-level-design-docs/master.svg)](https://results.pre-commit.ci/latest/github/gvatsal60/high-level-design-docs/HEAD)
+[![CodeFactor](https://www.codefactor.io/repository/github/gvatsal60/high-level-design-docs/badge)](https://www.codefactor.io/repository/github/gvatsal60/high-level-design-docs)
+![GitHub pull-requests](https://img.shields.io/github/issues-pr/gvatsal60/high-level-design-docs)
+![GitHub Issues](https://img.shields.io/github/issues/gvatsal60/high-level-design-docs)
+![GitHub forks](https://img.shields.io/github/forks/gvatsal60/high-level-design-docs)
+![GitHub stars](https://img.shields.io/github/stars/gvatsal60/high-level-design-docs)
 
-This repository serves as a foundational template for new projects,
-equipped with essential tools for maintaining code quality and documentation consistency.
-It includes:
+Welcome to the **High-Level Design Docs** repository.
+This is a collection of high-level design (HLD) documentation for software architecture,
+system design, and other related topics. The purpose of this repository is to provide a
+structured, comprehensive view of architectural decisions, patterns, and system overviews
+to guide developers, engineers, and architects in building scalable, maintainable, and efficient systems.
 
-1. README.md
-2. LICENSE
-3. .gitignore
-4. CODE_OF_CONDUCT.md
-5. CONTRIBUTING.md
-6. FUNDING.yml
-7. CHANGELOG.md
+## Table of Contents
 
-## Installation
+- [Overview](#overview)
+- [Purpose](#purpose)
+- [Documentation Structure](#documentation-structure)
+- [How to Contribute](#how-to-contribute)
+- [Licensing](#licensing)
+- [Contact](#contact)
 
-To install Project Template, follow these steps:
+## Overview
 
-1. **Clone the repository:**
+This repository contains design documentation for various system components, services,
+and architecture decisions, with a focus on high-level design. These documents help visualize
+and communicate the structure and flow of complex systems, aiding teams in understanding
+the overall architecture before diving into implementation.
 
-   ```bash
-   git clone https://github.com/gvatsal60/project-template.git
-   cd project-template
-   ```
+## Purpose
 
-2. **Customize According to Your Project:**
-   * Replace `[Project Name]`
-   * Update `[contact email]`
-   * Follow `[coding style guide]`
+The goal of the **High-Level Design Docs** repository is to:
 
-## Contributing
+- Provide a centralized place for all high-level architectural decisions and design documentation.
+- Standardize the format for presenting high-level designs and system overviews.
+- Serve as a reference for both new and existing projects to ensure consistency in design patterns and principles.
+- Facilitate collaboration between architects, engineers, and stakeholders.
 
-Contributions are welcome! Please read our
-[Contribution Guidelines](https://github.com/gvatsal60/project-template/blob/HEAD/CONTRIBUTING.md)
-before submitting pull requests.
+## Documentation Structure
 
-## License
+The repository is organized by different system components and features.
+Each folder contains relevant HLD documentation for that particular area.
+A typical structure might look like this:
 
-This project is licensed under the Apache License 2.0 License -
-see the [LICENSE](https://github.com/gvatsal60/project-template/blob/HEAD/LICENSE)
-file for details.
+Each document follows a similar template and contains key sections such as:
+
+- **Overview**: High-level description of the design or system.
+- **Components**: Breakdown of key components and their responsibilities.
+- **Interactions**: Explanation of how components interact with each other.
+- **Considerations**: Design trade-offs, scalability, security, and performance considerations.
+- **Future Enhancements**: Proposed improvements or potential evolution of the design.
+
+## How to Contribute
+
+We welcome contributions to the repository!
+If you have ideas for new HLDs or would like to update existing ones, please refer to the
+[CONTRIBUTING.md](https://github.com/gvatsal60/high-level-design-docs/blob/master/CONTRIBUTING.md)
+file for detailed guidelines on how to contribute.
+
+## Licensing
+
+This project is licensed under the Apache 2.0 License - see the
+[LICENSE](https://github.com/gvatsal60/high-level-design-docs/blob/HEAD/LICENSE) file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue or reach out to the repository maintainers.
