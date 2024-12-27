@@ -20,13 +20,6 @@
     "scope": "markdown",
     "prefix": "template",
     "body": [
-      "<!-- *************************************************************************************",
-      "# * File: ${TM_FILENAME}",
-      "# * Author: @gvatsal60",
-      "# * Date: ${CURRENT_DATE}-${CURRENT_MONTH_NAME_SHORT}-${CURRENT_YEAR}",
-      "# * Description: Brief description of the document's purpose.",
-      "# ************************************************************************************ -->",
-      "",
       "# ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}",
       "",
       "## Overview",
