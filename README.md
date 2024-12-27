@@ -39,6 +39,19 @@ The goal of the **High-Level Design Docs** repository is to:
 - Serve as a reference for both new and existing projects to ensure consistency in design patterns and principles.
 - Facilitate collaboration between architects, engineers, and stakeholders.
 
+## Documentation Structure
+
+The repository is organized by different system components and features.
+Each folder contains relevant HLD documentation for that particular area.
+A typical structure might look like this:
+
+Each document follows a similar template and contains key sections such as:
+
+- **Overview**: High-level description of the design or system.
+- **Components**: Breakdown of key components and their responsibilities.
+- **Interactions**: Explanation of how components interact with each other.
+- **Considerations**: Design trade-offs, scalability, security, and performance considerations.
+- **Future Enhancements**: Proposed improvements or potential evolution of the design.
 
 ## How to Contribute
 
