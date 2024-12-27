@@ -1,0 +1,53 @@
+/**
+ * @file markdown.code-snippets
+ * @brief Contains custom code snippets for Markdown
+ *
+ * This file provides a collection of code snippets designed to facilitate rapid
+ * development by offering quick access to commonly used patterns and boilerplate
+ * code. The snippets include function templates, common data structures, and
+ * useful macros.
+ *
+ * To utilize these snippets, integrate this file into your IDE's snippet manager
+ * or configuration. Feel free to modify and expand the snippets to meet your
+ * specific coding requirements.
+ */
+
+ {
+  /***************************************************************************************
+   * File Template
+   **************************************************************************************/
+  "Markdown File Template": {
+    "scope": "markdown",
+    "prefix": "template",
+    "body": [
+      "<!-- *************************************************************************************",
+      "# * File: ${TM_FILENAME}",
+      "# * Author: @gvatsal60",
+      "# * Date: ${CURRENT_DATE}-${CURRENT_MONTH_NAME_SHORT}-${CURRENT_YEAR}",
+      "# * Description: Brief description of the document's purpose.",
+      "# ************************************************************************************ -->",
+      "",
+      "# ${TM_FILENAME_BASE/(.*)/${1:/upcase}/}",
+      "",
+      "## Overview",
+      "High-level description of the design or system.",
+      "",
+      "## Components",
+      "Breakdown of key components and their responsibilities.",
+      "",
+      "## Interactions",
+      "Explanation of how components interact with each other.",
+      "",
+      "## Considerations",
+      "Design trade-offs, scalability, security, and performance considerations.",
+      "",
+      "## Future Enhancements",
+      "Proposed improvements or potential evolution of the design."
+    ],
+    "description": "markdown file template",
+    "isFileTemplate": true
+  }
+  /***************************************************************************************
+   * Debugging
+   **************************************************************************************/
+}
